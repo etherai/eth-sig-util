@@ -1,0 +1,26 @@
+{
+  "name": "eth-sig-util",
+  "version": "0.9.9",
+  "description": "Simple utility for verifying signed Ethereum transactions and messages",
+  "main": "eth-sig-util.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shoraibit/eth-sig-util.git"
+  },
+  "author": "Mo Balaa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shoraibit/eth-sig-util/issues"
+  },
+  "homepage": "https://github.com/shoraibit/eth-sig-util#readme",
+  "dependencies": {
+    "ethereumjs-tx": "^1.1.1",
+    "ethereumjs-util": "^4.4.1"
+  }
+}
